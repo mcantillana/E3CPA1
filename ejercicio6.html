@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <style>
+
+        html {
+            box-sizing: border-box;
+        }
+        *, *:before, *:after {
+            box-sizing: inherit;
+        }
+
+        .container {
+            width: 1170px;
+            margin: 0 auto;
+        }
+
+        .row {
+            clear: both;
+        }
+
+        .col {
+            float: left;
+            width: calc(100%/3);
+        }
+        .padding-box {
+            padding: 10px;
+        }
+        .img-responsive {
+            display: block;
+            max-width: 100%;
+        }
+
+        header {
+            background: lightseagreen;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        @media (max-width: 480px) {
+            body {
+                background: red;
+            }
+            .col {
+                width: 100%;
+
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Hola!! este es un ejercicio de Grillas</h1>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="col padding-box">
+                <img src="http://placehold.it/500x300" alt="" class="img-responsive">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, illum. Error quae veniam totam omnis? Ducimus quos magnam aut fugiat, veritatis rem, voluptate voluptatibus ipsa necessitatibus eius, saepe illo ex.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, illum. Error quae veniam totam omnis? Ducimus quos magnam aut fugiat, veritatis rem, voluptate voluptatibus ipsa necessitatibus eius, saepe illo ex.</p>
+            </div>
+            <div class="col padding-box">
+                <img src="http://placehold.it/500x300" alt="" class="img-responsive">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, illum. Error quae veniam totam omnis? Ducimus quos magnam aut fugiat, veritatis rem, voluptate voluptatibus ipsa necessitatibus eius, saepe illo ex.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, illum. Error quae veniam totam omnis? Ducimus quos magnam aut fugiat, veritatis rem, voluptate voluptatibus ipsa necessitatibus eius, saepe illo ex.</p>
+            </div>
+            <div class="col padding-box">
+                <img src="http://placehold.it/500x300" alt="" class="img-responsive">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, illum. Error quae veniam totam omnis? Ducimus quos magnam aut fugiat, veritatis rem, voluptate voluptatibus ipsa necessitatibus eius, saepe illo ex.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, illum. Error quae veniam totam omnis? Ducimus quos magnam aut fugiat, veritatis rem, voluptate voluptatibus ipsa necessitatibus eius, saepe illo ex.</p> 
+            </div>
+        </div>
+    </section>
+</body>
+</html>
